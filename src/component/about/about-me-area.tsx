@@ -23,13 +23,11 @@ export default function AboutMeArea() {
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <div className="row">
                   <div className="col-xl-4 col-lg-4 col-md-4 mb-40 tp_fade_bottom">
-                    <div className="ab-about-category-list category-space-1">
+                    <div className="ab-about-category-list category-space-2">
                       <ul>
-                        <li>Art direction</li>
-                        <li>Branding</li>
-                        <li>Content Production</li>
-                        <li>User Interface Design</li>
-                        <li>Animation</li>
+                        <li>Best Web Design 2019</li>
+                        <li>Site of the Day 2021</li>
+                        <li>Best Color Sensation 2021</li>
                       </ul>
                     </div>
                   </div>
@@ -39,8 +37,6 @@ export default function AboutMeArea() {
                         <li>Best Web Design 2019</li>
                         <li>Site of the Day 2021</li>
                         <li>Best Color Sensation 2021</li>
-                        <li>UI Trend Winner 2020</li>
-                        <li>Site of the Month 2022</li>
                       </ul>
                     </div>
                   </div>
@@ -50,8 +46,6 @@ export default function AboutMeArea() {
                         <li>Best Web Design 2019</li>
                         <li>Site of the Day 2021</li>
                         <li>Best Color Sensation 2021</li>
-                        <li>UI Trend Winner 2020</li>
-                        <li>Site of the Month 2022</li>
                       </ul>
                     </div>
                   </div>
