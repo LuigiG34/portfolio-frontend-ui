@@ -1,4 +1,3 @@
-import { UpArrow } from "../../component/svg";
 import { Link } from "react-router-dom";
 
 export default function Footer() {

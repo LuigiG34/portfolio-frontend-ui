@@ -15,10 +15,7 @@ import { footerTwoAnimation } from "../../utils/footer-anim";
 import { cursorAnimation } from "../../plugins";
 import ContactTwo from "@/component/contact/contact-two";
 import CounterOne from "@/component/counter/counter-one";
-import AboutThree from "@/component/about/about-three";
 import GalleryOne from "@/component/gallery/gallery-one";
-import HeroBannerFour from "@/component/hero-banner/hero-banner-four";
-import LineTextThree from "@/component/line-text/line-text-3";
 import BrandThree from "@/component/brand/brand-three";
 import HeroBannerOne from "@/component/hero-banner/hero-banner-one";
 import AboutMeArea from "@/component/about/about-me-area";
@@ -60,56 +57,24 @@ const HomeMainDev = () => {
 
     return (
         <Wrapper title="Luigi Gandemer - Développeur web">
-            {/* magic cursor start */}
             <div id="magic-cursor">
                 <div id="ball"></div>
             </div>
-            {/* magic cursor end */}
 
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main>
-                        {/* hero area start */}
                         <HeroBannerOne />
-                        {/* hero area end */}
-                        
-                        {/* brand area start */}
                         <BrandThree />
-                        {/* brand area end */}
-
-                        {/* about me area */}
                         <AboutMeArea />
-                        {/* about me area */}
-
-                        {/* counter area start */}
                         <CounterOne />
-                        {/* counter area end */}
-
-                        {/* service area */}
                         <ServiceOne />
-                        {/* service area */}
-
-                        {/* gallery area start */}
                         <GalleryOne />
-                        {/* gallery area end */}
-
-                        {/* about work */}
                         <AboutWork />
-                        {/* about work */}
-
-                        {/* portfolio area */}
                         <PortfolioGridFourColArea />
-                        {/* portfolio area */}
-
-
-                        {/* contact area */}
                         <ContactTwo />
-                        {/* contact area */}
                     </main>
-
-                    {/* footer area */}
                     <Footer />
-                    {/* footer area */}
                 </div>
             </div>
         </Wrapper>

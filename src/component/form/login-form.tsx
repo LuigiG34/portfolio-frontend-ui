@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import ErrorMsg from "../error-msg";
-import { Link } from "react-router-dom";
 
 type FormData = {
   email: string;
@@ -71,15 +70,6 @@ export default function LoginForm() {
           <ErrorMsg msg={errors.password?.message as string} />
         </div>
 
-      </div>
-      <div className="tp-login-suggetions d-sm-flex align-items-center justify-content-between mb-20">
-        <div className="tp-login-remeber">
-          <input id="remeber" type="checkbox" />
-          <label htmlFor="remeber">Remember me</label>
-        </div>
-        <div className="tp-login-forgot">
-          <Link to="#">Forgot Password?</Link>
-        </div>
       </div>
       <div className="tp-login-bottom">
         <button type="submit" className="tp-login-btn w-100">

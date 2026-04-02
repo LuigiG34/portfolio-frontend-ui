@@ -1,5 +1,3 @@
-import { Hand } from "../svg";
-
 export default function AboutMeArea() {
   return (
     <div className="ab-about-area ab-about-mt pb-90 z-index-5 pt-150 mt-0">

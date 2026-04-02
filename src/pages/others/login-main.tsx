@@ -1,11 +1,7 @@
-import { Link } from "react-router-dom";
 import useScrollSmooth from "../../hooks/use-scroll-smooth";
 
 // internal imports
 import Wrapper from "../../layouts/wrapper";
-import HeaderTwelve from "../../layouts/headers/header-twelve";
-import FooterTwo from "../../layouts/footers/footer-two";
-import SocialLogin from "../../component/form/social-login";
 import LoginForm from "../../component/form/login-form";
 
 const LoginMain = () => {
@@ -13,33 +9,18 @@ const LoginMain = () => {
 
     return (
         <Wrapper title="Login">
-            {/* header area start */}
-            <HeaderTwelve />
-            {/* header area end */}
-
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main>
-                        {/* login area */}
                         <section className="tp-login-area pt-180 pb-140 p-relative z-index-1 fix">
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-xl-6 col-lg-8">
                                         <div className="tp-login-wrapper">
                                             <div className="tp-login-top text-center mb-30">
-                                                <h3 className="tp-login-title">Sign In Liko.</h3>
-                                                <p>
-                                                    Don't have an account?{" "}
-                                                    <span>
-                                                        <Link to="/register">Sign Up</Link>
-                                                    </span>
-                                                </p>
+                                                <h3 className="tp-login-title">Connexion Administrateur</h3>
                                             </div>
                                             <div className="tp-login-option">
-                                                <SocialLogin />
-                                                <div className="tp-login-mail text-center mb-40">
-                                                    <p>or Sign in with <Link to="#">Email</Link></p>
-                                                </div>
                                                 {/* login form */}
                                                 <LoginForm />
                                                 {/* login form */}
@@ -49,12 +30,7 @@ const LoginMain = () => {
                                 </div>
                             </div>
                         </section>
-                        {/* login area */}
                     </main>
-
-                    {/* footer area */}
-                    <FooterTwo topCls="" />
-                    {/* footer area */}
                 </div>
             </div>
         </Wrapper>

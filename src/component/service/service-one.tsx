@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-
-
 // service data
 const service_data = [
   {

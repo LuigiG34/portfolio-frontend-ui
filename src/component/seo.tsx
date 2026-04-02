@@ -6,7 +6,7 @@ interface SeoProps {
 
 const SEO = ({ title }: SeoProps) => {
     useEffect(() => {
-        document.title = `${title ? `${title} - Liko Creative Portfolio React Template` : "Liko Creative Portfolio React Template"}`;
+        document.title = `${title ? `${title}` : "Luigi Gandemer - Développeur Web"}`;
     }, [title]);
 
     return null;

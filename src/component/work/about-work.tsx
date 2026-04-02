@@ -1,4 +1,3 @@
-
 const work_data = [
   {
     id: 1,
@@ -19,6 +18,7 @@ const work_data = [
     text: "Write modern, perform ant, maintainable code for a diverse array of client and internal projects",
   },
 ];
+
 export default function AboutWork() {
   return (
     <div className="ab-2-work-area">
