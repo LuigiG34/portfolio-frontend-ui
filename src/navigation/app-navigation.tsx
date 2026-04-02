@@ -12,6 +12,8 @@ export default function AppNavigation() {
             <Routes>
                 <Route path="/" element={<HomeMainDev />} />
                 <Route path="/login" element={<LoginMain />} />
+
+                {/*<Route path="/admin" element={}>*/}
             </Routes>
         </BrowserRouter>
     );
