@@ -4,6 +4,8 @@ import ScrollToTop from "../component/scroll-to-top";
 // home pages
 import HomeMainDev from "../pages/home/home";
 import LoginMain from "../pages/others/login-main";
+import Logout from "@/pages/others/logout";
+import AdminDashboard from "@/pages/admin/admin-dashboard.tsx";
 
 export default function AppNavigation() {
     return (
@@ -12,8 +14,8 @@ export default function AppNavigation() {
             <Routes>
                 <Route path="/" element={<HomeMainDev />} />
                 <Route path="/login" element={<LoginMain />} />
-
-                {/*<Route path="/admin" element={}>*/}
+                <Route path="/logout" element={<Logout />} />
+                <Route path="/admin" element={<AdminDashboard />} />
             </Routes>
         </BrowserRouter>
     );

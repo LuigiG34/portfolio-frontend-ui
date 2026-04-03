@@ -32,16 +32,14 @@ export default function AboutWork() {
               <span className="ab-2-work-subtitle tp_title_anim">
                 +{new Date().getFullYear() - 2023} ans d'expérience
               </span>
-              <img
-                className="ab-2-work-shape d-none d-lg-block"
-                src="/assets/img/inner-about/about/shape-1.png"
-                alt="shape"
-              />
+              <div className="tp-service-2-shape-img text-start pt-150">
+                <img alt="shape" src="/assets/img/home-02/service/sv-shape-1.png"/>
+              </div>
             </div>
           </div>
           <div className="col-xl-6 col-lg-7">
             {work_data.map((item) => (
-              <div key={item.id} className="ab-2-work-item tp_fade_bottom">
+                <div key={item.id} className="ab-2-work-item tp_fade_bottom">
                 <div className="sv-service-content">
                   <div className="sv-service-title-box">
                     <span className="sv-service-subtitle">
